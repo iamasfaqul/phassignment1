@@ -15,6 +15,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 7.5rem;
+    min-height: 5.75rem;
+    min-width: 100rem;
 }
 
 .nav-menu {
@@ -30,14 +32,16 @@ nav{
 }
 
 .logo img{
-width:81px;
-height:60px;
+    width:81px;
+    height:60px;
+    cursor: pointer;
 }
 
 ul a{
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
+    color: black;
 }
 
 .btn{
@@ -52,4 +56,86 @@ ul a{
     font-size: 1rem;
 }
 
+#banner {
+    background: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    min-height: 42.125rem;
+    min-width: 100rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.banner-content,.banner-button1,.banner-button2{
+    color: #FFFFFF;
+}
+
+.banner-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.banner-h1-green{
+    color:#30B868 ;
+}
+
+.banner-h1-green,.banner-h1-black{
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+#banner .banner-text-content{
+    font-size: 1.125rem;
+    font-weight: 100;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.banner-button1{
+    height: 3.25rem;
+    width: 15.6875rem;
+    background-color: #30B868;
+    padding: 1.03125rem 2.875rem 1.03125rem 1rem ;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border: none;
+
+}
+
+.banner-button2{
+    margin-top: 2rem;
+    width: 12.375rem;
+    height: 3.25rem;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: #FFFFFF 1px solid;
+    padding: 1.03125rem 1rem 1.03125rem 2.875rem ;
+}
+
+.pop-notification {
+    width: 229px;
+    height: 35px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    
+
+}
+
+.notification-text{
+       font-size: 16px;
+       font-weight: 400;
+       padding: 8px 12px 8px 34px;
+       align-items: center;
+       white-space: nowrap;
+       color: #30B868;
+       
+}
 
