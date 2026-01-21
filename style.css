@@ -44,6 +44,7 @@ ul a{
     color: black;
 }
 
+
 .btn{
     background-color:#30B868;
     height:2.75rem;
@@ -54,6 +55,10 @@ ul a{
     color: #FFFFFF;
     border: none;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 }
 
 #banner {
@@ -100,10 +105,15 @@ ul a{
     height: 3.25rem;
     width: 15.6875rem;
     background-color: #30B868;
-    padding: 1.03125rem 2.875rem 1.03125rem 1rem ;
+    /* padding: 1.03125rem 2.875rem 1.03125rem 1rem ; */
     margin-top: 2rem;
     margin-right: 1rem;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
 
 }
 
@@ -114,9 +124,17 @@ ul a{
     color: #FFFFFF;
     background-color: transparent;
     border: #FFFFFF 1px solid;
-    padding: 1.03125rem 1rem 1.03125rem 2.875rem ;
+    /* padding: 1.03125rem 1rem 1.03125rem 2.875rem ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-
+.banner-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .pop-notification {
     width: 229px;
     height: 35px;
@@ -132,10 +150,14 @@ ul a{
 .notification-text{
        font-size: 16px;
        font-weight: 400;
-       padding: 8px 12px 8px 34px;
        align-items: center;
        white-space: nowrap;
        color: #30B868;
-       
-}
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 6px;
+       padding: 8px 12px;
+      
+       }
 
