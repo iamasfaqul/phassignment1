@@ -377,3 +377,7 @@ ul a{
     flex-direction: column;
     gap: 16px;
 }
+
+.nothing{
+    display: none;
+}
