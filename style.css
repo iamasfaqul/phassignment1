@@ -329,10 +329,51 @@ ul a{
 .ready-heading{
     font-size: 40px;
     font-weight:700;
+    text-transform: capitalize;
 }
 
 .ready-paragraph,.ready-paragraph2{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+}
+
+#knowledegevault{
+    margin-top: 120px;
+    height: 348px;
+    background-color: #001931;
+    color: #ffffff;
+    background-size: cover;
+    padding: 120px 120px 0 120px;
+    
+}
+
+.knowledegevault1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: auto;
+    
+}
+
+.knowledegevault2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+    border-top: 1px solid #2E4256;
+    padding-top: 30px;
+}
+
+.s-icon{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
