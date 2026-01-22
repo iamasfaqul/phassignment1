@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 body{
@@ -216,6 +216,7 @@ ul a{
     align-items: center;
     flex-direction: column;
     gap: 44px;
+    color: #001931;
 
 }
 
@@ -236,6 +237,7 @@ ul a{
     min-width: 1360px;
 
 
+
 }
 
 .the-solution-header{
@@ -250,6 +252,7 @@ ul a{
     list-style: none;
     font-size: 16px;
     font-weight: 500;
+    color: #001931;
 
 
 }
@@ -265,6 +268,7 @@ ul a{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    color: #001931;
 
 }
 
@@ -286,4 +290,49 @@ ul a{
     align-items: center;
     gap: 6px;
     padding-bottom: 16px;
+}
+
+#early-access{
+    height: 384px;
+    width: 1360px;
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    gap: 16px;
+
+
+    
+}
+
+.early-access-button{
+    
+    height: 52px;
+    width: 194px;
+    background-color: #30B868;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 16px;
+    
+
+}
+
+.ready-heading{
+    font-size: 40px;
+    font-weight:700;
+}
+
+.ready-paragraph,.ready-paragraph2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
