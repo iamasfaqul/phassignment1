@@ -92,6 +92,7 @@ ul a{
     text-transform: capitalize;
     font-size: 4.5rem;
     font-weight: bold;
+    opacity: 90%;
 }
 
 #banner .banner-text-content{
@@ -113,6 +114,7 @@ ul a{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
     
 
 }
@@ -129,6 +131,7 @@ ul a{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
 }
 .banner-buttons{
     display: flex;
@@ -161,3 +164,65 @@ ul a{
       
        }
 
+.card{
+    height: 322px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  
+   }
+
+.card1-icon{
+    background-color:#F95555 ;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.card-header{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.option-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #001931;
+    margin-top: 38px;   
+}
+
+.option-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.option-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+#option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+    margin-top: ;
+
+}
+
+.option-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
