@@ -239,6 +239,10 @@ ul a{
 #the-solution{
     width: 100%;
     min-height: 840px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -249,7 +253,7 @@ ul a{
     align-items: center;
     gap: 60px;
     padding: 120px;
-    min-width: 1360px;
+    max-width: 1360px;
     width: 90%;
 }
 
@@ -313,6 +317,7 @@ ul a{
 
 .early-access-container{
     width: 90%;
+    max-width: 1360px;
     display: flex;
     flex-direction: column;
     align-items: center;
