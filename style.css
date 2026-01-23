@@ -242,7 +242,7 @@ ul a{
     display: flex;
     text-align: left;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     padding: 120px;
 
 }
@@ -250,7 +250,7 @@ ul a{
 .thesolution-container{
     display: flex;
     text-align: left;
-    justify-content: center;
+    justify-content: l;
     align-items: center;
     gap: 60px;
     max-width: 1360px;
