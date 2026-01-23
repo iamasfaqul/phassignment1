@@ -16,7 +16,7 @@ nav{
     align-items: center;
     padding: 1rem 7.5rem;
     min-height: 5.75rem;
-    min-width: 100rem;
+    width: 100%;
 }
 
 .nav-menu {
@@ -64,7 +64,7 @@ ul a{
 #banner {
     background: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     min-height: 42.125rem;
-    min-width: 100rem;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -211,6 +211,8 @@ ul a{
     gap: 24px;
 }
 #option{
+    width: 100%;
+    min-height: 448px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,6 +230,8 @@ ul a{
 }
 
 #the-solution{
+    width: 100%;
+    min-height: 840px;
     display: flex;
     text-align: left;
     justify-content: center;
@@ -293,8 +297,8 @@ ul a{
 }
 
 #early-access{
-    height: 384px;
-    width: 1360px;
+    min-height: 384px;
+    width: 100%;
     background-color: #F7F6F2;
     display: flex;
     flex-direction: column;
@@ -339,8 +343,9 @@ ul a{
 }
 
 #knowledegevault{
+    width: 100%;
     margin-top: 120px;
-    height: 348px;
+    min-height: 348px;
     background-color: #001931;
     color: #ffffff;
     background-size: cover;
