@@ -175,6 +175,7 @@ ul a{
     width: 300px;
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    clip-path: inset(-20px -20px 0px -20px);
     text-align: center;
     display: flex;
     flex-direction: column;
