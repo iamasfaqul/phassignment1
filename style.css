@@ -11,21 +11,27 @@ body{
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 7.5rem;
-    min-height: 5.75rem;
+  
+    padding: 16px 0;
+    min-height: 92px;
     width: 100%;
+   
 }
-
+.nav-container{
+     width: 90%;
+     max-width: 1600px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+}
 .nav-menu {
     display: flex;
     gap: 2rem;
     list-style-type: none;
     align-items: center;
-    
-}
+    }
 
 .bold-menu-option{
     font-weight: bold;
@@ -223,6 +229,7 @@ ul a{
 }
 
 .option-content{
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -232,6 +239,10 @@ ul a{
 #the-solution{
     width: 100%;
     min-height: 840px;
+
+}
+
+.thesolution-container{
     display: flex;
     text-align: left;
     justify-content: center;
@@ -239,9 +250,7 @@ ul a{
     gap: 60px;
     padding: 120px;
     min-width: 1360px;
-
-
-
+    width: 90%;
 }
 
 .the-solution-header{
@@ -298,17 +307,21 @@ ul a{
 
 #early-access{
     min-height: 384px;
-    width: 100%;
-    background-color: #F7F6F2;
+    width: 100%; 
+      
+}
+
+.early-access-container{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin:auto;
     gap: 16px;
+    background-color: #F7F6F2;
+    padding: 120px; 
 
-
-    
 }
 
 .early-access-button{
